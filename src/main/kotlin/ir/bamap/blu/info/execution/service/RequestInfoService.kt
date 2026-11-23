@@ -18,7 +18,7 @@ open class RequestInfoService(
         protected val objectMapper = ObjectMapper()
 
         @JvmStatic
-        protected val logger: Logger = LoggerFactory.getLogger(this::class.java)
+        protected val logger: Logger = LoggerFactory.getLogger(RequestInfoService::class.java)
     }
 
     protected val defaultRequestId = UUID.randomUUID().toString()
